@@ -92,7 +92,7 @@ evriwanken/
 
 ---
 
-## 💻 Panduan Instalasi & Menjalankan Lokal
+## Panduan Instalasi & Menjalankan Lokal
 
 1. **Clone repository:**
    ```bash
