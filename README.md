@@ -10,13 +10,12 @@ Platform edukasi dan aksi lingkungan digital yang dibangun menggunakan arsitektu
 - **Fahri**
 - **Hilal Muzaki**
 
-
 ---
 
 ## 🚀 Tautan Live & Repository
 
-- **Live Demo (Vercel):** [Menunggu Konfirmasi / Deployment]
-- **GitHub Repository:** [Menunggu Konfirmasi / Deployment]
+- **Live Demo (Vercel):** [https://evriwanken.vercel.app/](https://evriwanken.vercel.app/)
+- **GitHub Repository:** [https://github.com/rifqi0111/Kelompok_04-Penugasan-Week-2](https://github.com/rifqi0111/Kelompok_04-Penugasan-Week-2)
 
 ---
 
@@ -83,7 +82,7 @@ evriwanken/
    - Dibuat custom tanpa library eksternal dengan standar aksesibilitas WAI-ARIA (`role="dialog"`, `aria-modal="true"`).
    - Dilengkapi keyboard listener (`Escape` key), overlay backdrop click dismissal, dan body scroll lock.
 3. **Contact Form & POST API Integration:**
-   - Controlled component dengan validasi lokal (nama, subjek, pesan).
+   - Controlled component dengan validasi lokal (nama $\ge$ 2, subjek $\ge$ 3, pesan $\ge$ 10 karakter).
    - Pengiriman POST request ke endpoint `https://devx2026-post.vercel.app/api/posts` dengan Authorization token `Bearer DEVX2026`.
    - Penanganan status HTTP 201 (berhasil & reset form), 400 (bad request), 401 (unauthorized), dan network error dengan pesan feedback visual.
    - Loading indicator & disabled submit button untuk mencegah spam/duplikasi request.
@@ -97,7 +96,7 @@ evriwanken/
 
 1. **Clone repository:**
    ```bash
-   git clone <REPOSITORY_URL>
+   git clone https://github.com/rifqi0111/Kelompok_04-Penugasan-Week-2.git
    cd evriwanken
    ```
 
