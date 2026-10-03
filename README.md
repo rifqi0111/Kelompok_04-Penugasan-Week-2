@@ -4,7 +4,7 @@ Platform edukasi dan aksi lingkungan digital yang dibangun menggunakan arsitektu
 
 ---
 
-## 👥 Anggota Kelompok 04
+## Anggota Kelompok 04
 
 - **Muhammad Rifqi Fajar Adi Putra**
 - **Fahri**
@@ -12,14 +12,14 @@ Platform edukasi dan aksi lingkungan digital yang dibangun menggunakan arsitektu
 
 ---
 
-## 🚀 Tautan Live & Repository
+## Tautan Live & Repository
 
 - **Live Demo (Vercel):** [https://evriwanken.vercel.app/](https://evriwanken.vercel.app/)
 - **GitHub Repository:** [https://github.com/rifqi0111/Kelompok_04-Penugasan-Week-2](https://github.com/rifqi0111/Kelompok_04-Penugasan-Week-2)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework / Bundler:** React 19 + Vite 8
 - **Language:** JavaScript (ES6+ / JSX)
@@ -30,7 +30,7 @@ Platform edukasi dan aksi lingkungan digital yang dibangun menggunakan arsitektu
 
 ---
 
-## 📂 Struktur Project
+## Struktur Project
 
 ```text
 evriwanken/
@@ -72,7 +72,7 @@ evriwanken/
 
 ---
 
-## 🌟 Fitur Utama
+## Fitur Utama
 
 1. **Multi-Page Routing (SPA):**
    - Rute terdaftar: `/` (Home), `/program` (Program), `/tentang` (Tentang), `/kontak` (Kontak), dan wildcard `*` (NotFound 404).
