@@ -1,8 +1,11 @@
-## Anggota Kelompok
+# Catatan Pembagian Tugas - Kelompok 04
+
+## Anggota Kelompok 04
 
 1. Muhammad Rifqi Fajar Adi Putra
 2. Fahri
 3. Hilal Muzaki
+
 
 ---
 

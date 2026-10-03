@@ -1,14 +1,15 @@
-# Evriwanken - Penugasan Week 2
+# Evriwanken - Penugasan Week 2 (Kelompok 04)
 
 Platform edukasi dan aksi lingkungan digital yang dibangun menggunakan arsitektur modern **ReactJS + Vite**, **React Router DOM**, dan **Tailwind CSS**. Project ini merupakan kelanjutan dan pengembangan dari penugasan Week 1 yang kini telah bertransformasi menjadi web app multi-halaman interaktif dan terintegrasi dengan REST API.
 
 ---
 
-## 👥 Anggota Kelompok
+## 👥 Anggota Kelompok 04
 
 - **Muhammad Rifqi Fajar Adi Putra**
 - **Fahri**
 - **Hilal Muzaki**
+
 
 ---
 
