@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Modal from "./Modal";
+import { supportModal } from "../data/supportModal";
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -56,20 +57,18 @@ export default function Hero() {
         title="Dukung Gerakan Evriwanken"
       >
         <div className="space-y-4">
-          <p>
-            Gerakan Evriwanken didorong oleh kepedulian bersama untuk memulihkan ekosistem hutan nusantara dan mengatasi timbulan sampah plastik.
-          </p>
+          <p>{supportModal.intro}</p>
           <div className="bg-green-50 border border-green-200 rounded-xl p-4 text-sm text-green-900 space-y-2">
-            <p className="font-semibold text-green-950">Cara Anda Dapat Berkontribusi:</p>
+            <p className="font-semibold text-green-950">{supportModal.contributionTitle}</p>
             <ul className="list-disc list-inside space-y-1">
-              <li><strong>Adopsi Bibit Pohon:</strong> Dukung penanaman pohon bibit lokal di lereng kritis.</li>
-              <li><strong>Relawan Lingkungan:</strong> Bergabung dalam aksi pemilahan sampah bulanan.</li>
-              <li><strong>Edukasi Daur Ulang:</strong> Terapkan pemilahan sampah organik dan anorganik dari rumah.</li>
+              {supportModal.contributions.map((item) => (
+              <li key={item.label}>
+                  <strong>{item.label}</strong> {item.text}
+                </li>
+              ))}
             </ul>
           </div>
-          <p className="text-xs text-gray-500">
-            Evriwanken beroperasi secara transparan bersama komunitas lokal mitra di seluruh Indonesia.
-          </p>
+          <p className="text-xs text-gray-500">{supportModal.footnote}</p>
           <div className="pt-2 flex justify-end">
             <button
               type="button"
