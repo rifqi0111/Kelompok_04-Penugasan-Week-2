@@ -162,8 +162,8 @@ export default function ContactForm() {
       {/* Feedback status message (Success / Error) dengan role="status" dan aria-live */}
       {status.message && (
         <div
-          role="status"
-          aria-live="polite"
+          role={status.type === "error" ? "alert" : "status"}
+          aria-live={status.type === "error" ? "assertive" : "polite"}
           className={`p-4 rounded-xl text-sm font-medium flex items-start gap-3 border ${
             status.type === "success"
               ? "bg-emerald-50 border-emerald-300 text-emerald-800"
